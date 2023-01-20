@@ -1,4 +1,4 @@
-var connToken = "90932387|-31949271492044069|90955545";
+var connToken = "90932346|-31949271593068311|90953852";
 var shipDBName = "DELIVERY-DB ";
 var shipRelationName = "SHIPMENT-TABLE";
 var jpdbBaseURL = "http://api.login2explore.com:5577";
