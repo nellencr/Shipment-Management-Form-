@@ -18,7 +18,7 @@
 
                 <div class="form-group">
                     <span><label for="shipNo">Shipment-No:</label> </span>
-                    <input type="number" class="form-control"  id="shipNo" onchange="">
+                    <input type="number" class="form-control"  id="shipNo" onchange="getSHIP()">
                 </div>
                 <div class="form-group">
                     <label for="shipDesc">Description:</label>
@@ -41,9 +41,9 @@
                     <input type="date" class="form-control" id="shipDeli">
                 </div>
                 <div class="form-group text-center">
-                    <button type="button" class="btn btn-lg btn-primary" id="save" onclick=" " disabled >Save</button>
-                    <button type="button" class="btn btn-lg btn-primary" id="change" onclick="" disabled>Update</button>
-                    <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="" disabled>Reset</button>
+                    <button type="button" class="btn btn-lg btn-primary" id="save" onclick="saveData()"  disabled>Save</button>
+                    <button type="button" class="btn btn-lg btn-primary" id="update" onclick="updateData()" disabled>Update</button>
+                    <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="resetForm()" disabled>Reset</button>
                 </div>
             </form>
 
