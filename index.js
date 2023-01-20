@@ -75,6 +75,7 @@ function resetForm(jsonObj) {
     $("#reset").prop("disabled", true);
     $("#shipNo").focus();
 }
+
 function saveRecNo2LS(jsonObj){
     var recdata = JSON.parse(jsonObj.data);
     localStorage.setItem("recno", recdata.rec_no);
@@ -88,7 +89,7 @@ function fillData(jsonObj) {
     $("#shipDest").val(record.destiny);
     $("#shipDate").val(record.date);
     $("#shipDeli").val(record.delivery);
-    }
+}
 
 function getShipIdAsJsonObj(){
     var shipNo = $("#shipNo").val();
@@ -131,7 +132,6 @@ function saveData() {
     var resJsonObj = executeCommandAtGivenBaseUrl(putRequest, jpdbBaseURL, jpdbIML);
     jQuery.ajaxSetup({async: true});
     resetForm();
-
     $("#shipNo").focus();
 }
 
@@ -145,6 +145,5 @@ function updateData() {
     jQuery.ajaxSetup({async: true});
     console.log(resJsonObj);
     resetForm();
-    $("#empid").focus();
-
+    $("#shipNo").focus();
 }
