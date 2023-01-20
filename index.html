@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shipment-Management-Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="page_header">
+                <h3>Shipment-Management-Form using JPDB API</h3>
+            </div>
+            <form  id="shipForm" method="get">
+
+                <div class="form-group">
+                    <span><label for="shipNo">Shipment-No:</label> </span>
+                    <input type="number" class="form-control"  id="shipNo" onchange="">
+                </div>
+                <div class="form-group">
+                    <label for="shipDesc">Description:</label>
+                    <input type="text" class="form-control" id="shipDesc">
+                </div>
+                <div class="form-group">
+                    <label for="shipSource">Source:</label>
+                    <input type="text" class="form-control" id="shipSource">
+                </div>
+                <div class="form-group">
+                    <label for="shipDest">Destination:</label>
+                    <input type="text" class="form-control" id="shipDest">
+                </div>
+                <div class="form-group">
+                    <label for="shipDate">Shipping-Date:</label>
+                    <input type="date" class="form-control" id="shipDate">
+                </div>
+                <div class="form-group">
+                    <label for="shipDeli">Expected-Delivery-Date:</label>
+                    <input type="date" class="form-control" id="shipDeli">
+                </div>
+                <div class="form-group text-center">
+                    <button type="button" class="btn btn-lg btn-primary" id="save" onclick=" " disabled >Save</button>
+                    <button type="button" class="btn btn-lg btn-primary" id="change" onclick="" disabled>Update</button>
+                    <button type="button" class="btn btn-lg btn-primary" id="reset" onclick="" disabled>Reset</button>
+                </div>
+            </form>
+
+        </div>
+        <script   src="index.js"></script>
+    </body>
+</html>
