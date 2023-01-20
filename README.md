@@ -1,8 +1,8 @@
 # Shipment-management form project
 ## This project uses JPDB to store data in the database.
 
-**JSONPowerDB is a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database. Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
-JPDB has ready to use API for Json document DB, RDBMS, Key-value DB, GeoSpatial DB and Time Series DB functionality. JPDB supports and advocates for true serverless and pluggable API development.**
+**_JSONPowerDB is a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database. Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
+JPDB has ready to use API for Json document DB, RDBMS, Key-value DB, GeoSpatial DB and Time Series DB functionality. JPDB supports and advocates for true serverless and pluggable API development._**
 
 [&#9889;Documentation Link](https://login2explore.com/jpdb/docs.html#jpdb-command-request)
 
@@ -27,16 +27,29 @@ JPDB has ready to use API for Json document DB, RDBMS, Key-value DB, GeoSpatial 
   - Real time application for data analytics.
   - Live working HTML templates.
   - Any software application that needs backend DB. (Dynamic web-apps/Mobile/Desktop Apps)
+  
+  
+  ![image](images/docu.jpg)
+  
+  The Dashboard of JASONPOWERDB looks like in the above screenshoot. this is where the user create connection token and enjoy with other benefits .
+  
+  
 
-Release History (release of your JsonPowerDB related code on Github)
-Additional you can have:
+JSPD is easy to use, the user  input data to Shipment-management form and the data is stored in the Jpdb see the screenshoot below:
 
-Table of contents
-Illustrations
-Scope of functionalities
-Examples of use
-Project status
-Sources
-Other information
+![image](images/ship.jpg)
+
+
+The user can aswell update the database, below is the updated screenshoot.
+![image](images/update.jpg)
+
+
+👤 **AUTHOR**
+
+- Email: [nellencr@gmail.com](mailto:nellencr@gmail.com)
+- Github: [@nellencr](https://github.com/nellencr)
+- Twitter: [Nella](https://twitter.com/Nella75794271)
+- Linkedin: [Nela Komane](https://www.linkedin.com/in/nela-komane-8866b9192/)
+
   
  
